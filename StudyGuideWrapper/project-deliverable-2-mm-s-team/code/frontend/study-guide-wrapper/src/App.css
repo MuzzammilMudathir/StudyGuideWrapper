@@ -1,0 +1,100 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(145deg, #ffc1cc, #ffdde1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* App Container */
+.App {
+  max-width: 600px; /* Limit the width to 600px */
+  margin: 20px auto; /* Center it horizontally with some margin */
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #3a3f47, #282c34);
+  box-shadow: 4px 4px 10px #1c1f23, -4px -4px 10px #404852;
+}
+
+/* Header */
+.App-header {
+  margin: 0;
+  padding: 20px;
+  border-bottom: 2px solid #61dafb;
+}
+
+.App-header h1 {
+  font-size: 2rem;
+  color: #61dafb;
+}
+
+.App-header p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Selected Files Section */
+.selected-files {
+  margin-top: 20px;
+}
+
+.selected-files h3 {
+  color: #61dafb;
+}
+
+.selected-files ul {
+  list-style: none;
+  padding: 0;
+}
+
+.selected-files li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  color: #fff;
+  text-align: left;
+}
+
+/* Sections */
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  color: #61dafb;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
